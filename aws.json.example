@@ -1,0 +1,11 @@
+{
+  "key": "",
+  "secret": "",
+  "bucket": "",
+  "region": "<p.e. us-west-2>",
+  "project": "<PROJECT-NAME>",
+  "env": {
+    "dev": "http://localhost:<PORT></app/...>",
+    "prod": "https://<BUCKET-NAME>.s3.amazonaws.com/projects/<PROJECT-NAME>"
+  }
+}
