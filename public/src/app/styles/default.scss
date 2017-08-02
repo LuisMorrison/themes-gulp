@@ -1,0 +1,13 @@
+//$s3_bucket_uri: 'https://kichink-kes.s3.amazonaws.com/projects/bonita' !default;
+$s3_bucket_uri: '/* @echo URL_BUCKET */' !default;
+
+@import "common/_include";
+@import "_typography";
+@import "_cols";
+@import "_main";
+@import "_home";
+@import "_shop";
+@import "_about";
+@import "_contact";
+@import "_faq";
+@import "_detail";

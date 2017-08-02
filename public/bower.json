@@ -1,0 +1,23 @@
+{
+  "name": "fountain-inject",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.7.0",
+    "simple-line-icons": "^2.4.1",
+    "owl.carousel": "^2.2.0",
+    "fingerprintjs2": "^1.4.4",
+    "jquery-validation": "^1.16.0",
+    "instafeed.js": "^1.4.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.min.js",
+        "dist/css/bootstrap.min.css"
+      ]
+    }
+  },
+  "devDependencies": {}
+}

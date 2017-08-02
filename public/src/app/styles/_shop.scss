@@ -1,0 +1,101 @@
+.shop {
+  .categories {
+    margin-bottom: 40px;
+    ul {
+      text-align: left;
+      text-transform: lowercase;
+      li {
+        border-bottom: 1px solid #f6cbfd;
+        a {
+          color: #999;
+          font-weight: 300;
+          display: block;
+          padding: 8px 0;
+          transition: all .2s ease-in;
+          -moz-transition: all .2s ease-in;
+          -webkit-transition: all .2s ease-in;
+          &:hover {
+            color: #f379b5;
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn-ribbon {
+  color: #4a4a4a;
+  background-color: #f5c1fd;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 40px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+  border-radius: 0;
+  position: relative;
+  left: 21px;
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1px;
+    border: 20px solid #f5c1fd;
+    z-index: -1;
+  }
+  &:before {
+    left: -22px;
+    border-right-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0);
+  }
+  &:after {
+    right: -22px;
+    border-left-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0);
+  }
+  &:active, &:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.pagination {
+  margin: 0;
+  clear: both;
+  > {
+    li {
+      margin: 40px 0;
+      display: inline-block;
+      > {
+        a, span {
+          color: #333;
+          width: 32px;
+          height: 32px;
+          padding: 6px;
+          border: none !important;
+          border-radius: 50%;
+          &:hover, &:focus {
+            color: #333;
+            background-color: #eef1f3;
+            border-color: rgba(0, 0, 0, 0);
+          }
+        }
+      }
+      &:first-child >, &:last-child > {
+        a, span {
+          border-radius: 50% !important;
+        }
+      }
+    }
+    .active > {
+      a, span, a:hover, span:hover, a:focus, span:focus {
+        background-color: #333;
+        border-color: #333;
+      }
+    }
+  }
+}
+

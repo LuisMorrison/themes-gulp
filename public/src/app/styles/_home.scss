@@ -1,0 +1,60 @@
+.home {
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+  }
+  .carousel-caption {
+    @include vertical-align;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: initial;
+    h3 {
+      font-family: 'Roboto', Helvetica, Arial, Verdana, sans-serif;
+      font-size: 42px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 3px;
+    }
+    &.overlayed {
+      background-color: rgba(0,0,0,0.6);
+    }
+    .btn-default {
+      @include transition(0.2);
+      background-color: rgba(0,0,0,0.2);
+      color: #fff;
+      border: 1px solid #fff;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding: 6px 24px;
+      &:hover, &:focus, &:active, &.active {
+        background-color: rgba(255,255,255,0.15);
+      }
+    }
+  }
+  section {
+    &.featured, &.new-arrivals, &.instagram {
+      margin: 40px 0;
+      @include clearfix;
+    }
+    &.new-arrivals {
+      margin-bottom: 0;
+      .pagination {
+        display: none;
+      }
+    }
+    &.instagram {
+      border-top: 1px solid #f6cbfd;
+      margin-top: 10px;
+      padding-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "home": {
+    "arrivals": [241782, 290778],
+    "carousel": [
+      {
+        "image": "https://kichink-kes.s3.amazonaws.com/projects/bonita/images/ana-victoria-2.jpg",
+        "link": "/stores/bonita-bonita"
+      },
+      {
+        "image": "https://kichink-kes.s3.amazonaws.com/projects/bonita/images/ana-victoria-6.jpg",
+        "link": "/stores/bonita-bonita"
+      }
+    ],
+    "featured": [
+      {
+        "image": "https://s3.amazonaws.com/kichink/items_1240581_4741_20161215154940_b.jpg",
+        "title": {
+          "es": "Accesorios",
+          "en": "Accesories"
+        },
+        "link": "/stores/bonita-bonita/shop"
+      },
+      {
+        "image": "https://s3.amazonaws.com/kichink/items_1240674_4741_20161215154022_b.jpg",
+        "title": {
+          "es": "Papelería",
+          "en": "Stationery"
+        },
+        "link": "/stores/bonita-bonita/shop"
+      },
+      {
+        "image": "https://s3.amazonaws.com/kichink/items_1240637_4741_20161215155524_b.jpg",
+        "title": {
+          "es": "Suministros para fiesta",
+          "en": "Party supplies"
+        },
+        "link": "/stores/bonita-bonita/shop"
+      }
+    ]
+  },
+  "categories": {
+    "menu": [
+      {
+        "id": [],
+        "name": {
+          "es": "Inicio",
+          "en": "Home"
+        },
+        "slug": "",
+        "subcats": []
+      },
+      {
+        "id": [],
+        "name": {
+          "es": "Tienda",
+          "en": "Shop"
+        },
+        "slug": "shop",
+        "subcats": []
+      },
+      {
+        "id": [],
+        "name": {
+          "es": "Sobre Nosotros",
+          "en": "About"
+        },
+        "slug": "about",
+        "subcats": []
+      },
+      {
+        "id": [],
+        "name": {
+          "es": "FAQ",
+          "en": "FAQ"
+        },
+        "slug": "faq",
+        "align": "right",
+        "subcats": []
+      }
+    ],
+    "subcats": [
+      {
+        "id": [12345, 290771],
+        "name": {
+          "es": "Accesorios",
+          "en": "Accesories"
+        }
+      },
+      {
+        "id": [12346, 290772],
+        "name": {
+          "es": "Apparel",
+          "en": "Apparel"
+        }
+      },
+      {
+        "id": [12347, 290773],
+        "name": {
+          "es": "Bags",
+          "en": "Bags"
+        }
+      },
+      {
+        "id": [12348, 290774],
+        "name": {
+          "es": "Desk Supplies",
+          "en": "Desk Supplies"
+        }
+      },
+      {
+        "id": [12349, 290775],
+        "name": {
+          "es": "Stationery",
+          "en": "Stationery"
+        }
+      },
+      {
+        "id": [12350, 290776],
+        "name": {
+          "es": "Party Supplies",
+          "en": "Party Supplies"
+        }
+      },
+      {
+        "id": [12355, 290777],
+        "name": {
+          "es": "Home Deco",
+          "en": "Home Deco"
+        }
+      },
+      {
+        "id": [0, 290778],
+        "name": {
+          "es": "New Arrivals",
+          "en": "New Arrivals"
+        }
+      }
+    ]
+  },
+  "routes": {
+      "RESOURCES_BASE_URI": ["http://localhost:3005", "https://kichink-kes.s3.amazonaws.com", "https://kichink-kes.s3.amazonaws.com"],
+      "S3_URI": ["http://localhost:3005/app/resources", "https://kichink-kes.s3.amazonaws.com/projects/bonita", "https://kichink-kes.s3.amazonaws.com/projects/bonita"],
+      "CHECKOUT_URI": ["http://www.local.kichink.com/checkout", "http://www.alpha.kichink.com/checkout", "https://www.kichink.com/checkout"],
+      "API_BASE_URI": ["http://api.local.kichink.com", "http://api.alpha.kichink.com", "https://api.kichink.com"],
+      "API_KEY": "6L2Hq3BDjhYV4Q1UCls5N9G8Beo96WCF"
+  },
+  "pages": {
+    "about": {
+      "es": [
+        "<header><h1>About Us</h1></header>",
+        "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl. Donec eros ligula, molestie eu nisi porta, pulvinar volutpat justo. Morbi quis ante vitae tellus ultrices mollis. Ut congue eros ut dolor sodales, eu tincidunt ipsum tincidunt. Morbi erat enim, maximus id erat dictum, euismod elementum lorem. Sed efficitur bibendum lorem. Etiam porta ut elit eu hendrerit. Donec eu velit libero. Quisque quis mi auctor, tincidunt lorem sit amet, fermentum ligula. Sed rhoncus, massa at mattis gravida, quam velit feugiat risus, vel venenatis tellus lacus nec nisi. Nunc vitae tellus felis. Vivamus consequat molestie nulla id volutpat. Cras vitae neque a odio ullamcorper molestie. Integer quis fermentum eros. Donec a iaculis lorem. Praesent eget leo massa. Maecenas blandit, mauris non congue placerat, sem velit rhoncus mi, vitae imperdiet arcu augue et risus.</p>"
+      ],
+      "en": [
+        "<header><h1>About Us</h1></header>",
+        "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl. Donec eros ligula, molestie eu nisi porta, pulvinar volutpat justo. Morbi quis ante vitae tellus ultrices mollis. Ut congue eros ut dolor sodales, eu tincidunt ipsum tincidunt. Morbi erat enim, maximus id erat dictum, euismod elementum lorem. Sed efficitur bibendum lorem. Etiam porta ut elit eu hendrerit. Donec eu velit libero. Quisque quis mi auctor, tincidunt lorem sit amet, fermentum ligula. Sed rhoncus, massa at mattis gravida, quam velit feugiat risus, vel venenatis tellus lacus nec nisi. Nunc vitae tellus felis. Vivamus consequat molestie nulla id volutpat. Cras vitae neque a odio ullamcorper molestie. Integer quis fermentum eros. Donec a iaculis lorem. Praesent eget leo massa. Maecenas blandit, mauris non congue placerat, sem velit rhoncus mi, vitae imperdiet arcu augue et risus.</p>"
+      ]
+    },
+    "faq": {
+      "es": [
+        "<header><h1>Frequently Asked Questions</h1></header>",
+        "<dl>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "</dl>"
+      ],
+      "en": [
+        "<header><h1>Frequently Asked Questions</h1></header>",
+        "<dl>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "<dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat nisl</dt>",
+        "<dd>Nulla facilisi. Vivamus vulputate posuere massa, nec eleifend metus gravida sed. Morbi placerat libero et tellus facilisis, semper placerat metus ornare. Phasellus lobortis in ex a consectetur. Suspendisse cursus quam at nunc rutrum venenatis. Sed ornare vestibulum erat id egestas.</dd>",
+        "</dl>"
+      ]
+    }
+  },
+  "languages": {
+    "shoppingkart": {
+      "es": "Mi Carrito",
+      "en": "Shopping Cart"
+    },
+    "search": {
+      "es": "Buscar...",
+      "en": "Search..."
+    },
+    "signin": {
+      "es": "Iniciar Sesión",
+      "en": "Sign in"
+    },
+    "currency_label": {
+      "es": "English / USD",
+      "en": "Español / MXN"
+    },
+    "changing_lang": {
+      "es": "Loading language...",
+      "en": "Cambiando idioma..."
+    },
+    "go_back": {
+      "es": "Regresar",
+      "en": "Go Back"
+    },
+    "combo_sizes": {
+      "es": "Talla / Color",
+      "en": "Size / Color"
+    },
+    "combo_units": {
+      "es": "(Selecciona una)",
+      "en": "(Select units)"
+    },
+    "add_cart": {
+      "es": "Agregar al Carrito",
+      "en": "Add to Bag"
+    },
+    "details_title": {
+      "es": "Detalles",
+      "en": "Details"
+    },
+    "shop_all_btn": {
+      "es": "Ver todos los artículos",
+      "en": "Shop all products"
+    },
+    "kichink_guarantee_prefix": {
+      "es": "Compra segura con",
+      "en": "Secure shopping with"
+    },
+    "kichink_guarantee": {
+      "es": "Garantía Kichink",
+      "en": "Kichink Guarantee"
+    },
+    "related_items": {
+      "es": "Te podría gustar",
+      "en": "You might like"
+    },
+    "help": {
+      "es": "Ayuda",
+      "en": "Help"
+    },
+    "footer_terms": {
+      "es": "Términos del Servicio",
+      "en": "Terms of Service"
+    },
+    "footer_privacy": {
+      "es": "Aviso de Privacidad",
+      "en": "Privacy Policy"
+    },
+    "footer_faqs": {
+      "es": "Preguntas Frecuentes",
+      "en": "FAQs"
+    },
+    "footer_learn_more": {
+      "es": "Conoce más de Kichink",
+      "en": "Learn more about Kichink"
+    },
+    "footer_operated": {
+      "es": "Este sitio es operado por",
+      "en": "This site is powered by"
+    },
+    "footer_protected": {
+      "es": "Toda tu información esta protegida por un certificado SSL de 256 bits.",
+      "en": "All your information is protected by a 256-Bit SSL Certificate."
+    }
+  }
+}
